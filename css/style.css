@@ -1,19 +1,90 @@
+body {
+  font-family: sans-serif;
+}
+
+
 header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #orange;
+  background-color:#06D6A0;
+  height:100px;
+  width:100%;
+  overflow: hidden;
+  margin:0;
+}
+li {
+  float:right;
+  display:inline-block;
+  padding:14px;
+  font-size:1.5em;
 }
 
-ul .home.cats.products.about {
-    float: left;
+.logo {
+  color:white;
+  display:inline;
+  font-size: 18px;
 }
 
-.home.cats.products.about {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+img {
+  width:50%;
+
+}
+
+.container-welcome {
+  background-color:#26547C;
+  width:94.4%;
+  margin:auto;
+}
+.meow{
+  display:inline-block;
+  float:right;
+  clear:right;
+
+}
+
+.cats {
+  background-color: #FFD166;
+  padding: 30px 20px;
+  width:90%;
+  margin:auto;
+
+}
+
+.products {
+  background-color: #F2F2F2;
+  padding: 30px 20px;
+  width:90%;
+  margin:auto;
+}
+.kitties img {
+  box-sizing: border-box;
+  width:30%;
+  border:2px solid black;
+  margin:10px;
+}
+
+.fun{
+background-color:#26547C;
+padding:30px 20px;
+width:90%;
+margin: auto;
+}
+
+.fun h3 {
+  color: #EF476F;
+  text-align: center;
+  margin-bottom:10px;
+  margin-left:40px;
+  margin-right:40px;
+  display:inline-block;
+
+}
+
+.fun p{
+  color: white;
+}
+footer{
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
 }
